@@ -1,0 +1,126 @@
+
+@charset "UTF-8"
+/* CSS DOCUMENT */
+
+/* This is a CSS DOCUMENT 
+If you want an html page on your website to use the styles defined here, 
+you'll need to add this to the top of that html page within the <head> brackets.
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+*/
+/* NAV BAR INFO*/
+
+	nav {
+		 /*width: 99.9%;*/
+		 z-index: 100;
+		 color: #0c354e;
+		 background-color: red;
+		}  	 
+
+	 nav a {
+	 	font-family: "Helvetica", Sans-serif;
+	 	text-decoration: none;
+	 	color: #e8e5eb; 	
+	 	/*font-size: 1.5em*/;
+	 	}
+
+	 
+/* PAGE DESIGN INFO*/
+		
+
+   		body {
+   			/*margin-top: 2em;
+		margin-left: 3em;
+		margin-right: 3em;
+		font-family: "American Typewriter", "Lucida Grande", sans-serif;*/
+		    margin: 0;
+		    padding: 0;
+		color: #624C79;
+		background-color: black;
+    	}
+
+	
+	 	img {
+	 		padding: 1em;
+	 		max-width: 100%;
+				       
+	 	}
+
+
+/*TEXT PARAMETERS*/
+    /*h1, h2, h3, h4, h5, h6 {
+    	font-weight: normal;
+    	font-family: Helvetica, Sans-serif;
+    	color: black;
+    	}*/
+    h1 {
+		font-size: 2em;
+		color: #c1a111;
+	}
+
+	/*I've made my second biggest text black and italicized, also set it's margin to 0 (this overrides the standard bigger margins)*/
+	h2 {
+		color: #73003a;
+		margin: 0;
+		margin-bottom: 0;
+		font-size: 1.25em;
+	}
+
+	h3 {
+	    color: #990000;
+	    
+	}
+
+	p {
+		margin-left: 50px;
+		margin-right:50px;
+		/*font-family: Helvetica, Sans-serif;*/
+		color: #fff;
+		}
+
+	a {
+		/*font-family: Helvetica, Sans-serif;*/
+		color: #ffcc33;
+		}
+
+	a:hover {
+		font-weight: bold;
+	}
+
+
+	div {
+	    top: 0%;
+	    left: 0%;
+	    position: sticky;
+	    width: 100%;
+	    background-color: #200040;
+	    padding-top: 2.5%;
+	    padding-bottom: 2.5%;
+	}
+
+	
+
+
+/* FOOTER INFO*/
+
+    footer {
+    	border-top: 1px solid white;
+	 	margin-top: 0;
+	 	padding-top: 0;
+	 	}
+
+	 footer ul {
+	 	list-style-type: none;	
+	 	}
+
+	 footer ul li {
+	 	display: inline;
+	 	margin-top: 0;
+	 	margin-left: 10px;
+	 	padding-top: 0;
+	 	padding-left: 10px
+	 	padding-right: 10px;
+	 	}
+	 
+  </style>
