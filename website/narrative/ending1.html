@@ -1,0 +1,168 @@
+
+<!Doctype>
+<html>
+<head>
+  <style>
+
+    body
+    {
+    background-color: 444444;
+    }
+	#dungeon
+	{
+		position:absolute;
+		top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	z-index: 0;
+	width: 90%;
+	}  /*Dungeon:2008.555W 1129.261H
+	Scroll: 308.747W 239.371W*/
+	
+	#credits
+	{
+		position:absolute;
+		bottom: 1%;
+	right: 1%;
+	width: 21.209576038%;
+	z-index: 2;
+	
+	}
+
+	#replay
+	{
+		position:absolute;
+		bottom: 1%;
+	left: 1%;
+	width: 21.209576038%;
+	z-index: 2;
+	}
+
+	#titleimg
+	{
+	position:absolute;
+	z-index: 100;
+	height: 100%;
+	left: 50%;
+	transform: translate(-50%);
+	}
+
+	#scroll1
+	{
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+	}
+
+	#scroll2
+	{
+	position: absolute;
+	bottom: 0;
+	z-index: 10;
+	width: 100%;
+	}
+
+	#bag
+	{
+	position: absolute;
+	top: 0;
+	z-index: 11;
+	width: 100%;
+	height: 100%
+    }
+
+    .currenttext
+    {
+    color: black
+    }
+	
+	#player
+	{
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position:absolute;
+	border: 5px solid #C3922E;
+	width: 60vw;
+	height: 33.7335348049vw;
+    resize: both;
+    background-color: #DDBF9A;
+	}
+
+	#log
+	{
+	top: 55%;
+	left: .1%;
+	transform: translate(0, -50%);
+	position:absolute;
+	width: 15vw;
+	height: 33.7335348049vw;
+	resize: both;
+	}
+
+	#innerlog
+	{
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	position:absolute;
+	background-color: DDBF9A;
+	width: 77.529822152%;
+	height: 100%;
+	resize: both;
+	z-index: 9;
+	overflow: auto;
+	}
+
+
+	#inventory
+	{
+	top: 55%;
+	right: .1%;
+	transform: translate(0, -50%);
+	position:absolute;
+	border: 1px solid black;
+	width: 15vw;
+	height: 33.7335348049vw;
+	resize: both;
+	}
+
+	#title
+	{
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%);
+	position:absolute;
+	width: 60vw;
+	height: 15vh;
+	resize: both;
+	}
+	</style>
+</head>
+
+<body>
+  <div id="player">
+    <img src="images/failend.png" id="dungeon">
+    <a href="credits.html">
+      <img src="images/creditsbutton.png" id="credits" ismap>
+    </a>
+    <a href="index.html">
+      <img src="images/replaybutton.png" id="replay" ismap>
+      </a>
+  </div>
+  <div id="log">
+    <img src="images/scrollend2.png" id="scroll1">
+    <div id="innerlog">
+      <p></p>
+      </div>
+    <img src="images/scrollend2.png" id="scroll2">
+  </div>
+   <div id="inventory">
+   <img src="images/burlaptexture.png" id="bag">
+   </div>
+    <div id="title">
+      <img src="images/dungeondetective.png" id="titleimg">
+</div>
+</body>
+</html>

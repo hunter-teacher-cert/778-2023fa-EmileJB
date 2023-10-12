@@ -1,0 +1,169 @@
+
+<!Doctype>
+<html>
+<head>
+  <style>
+
+    body
+    {
+    background-color: 444444;
+    }
+	#dungeon
+	{
+		position:absolute;
+		top: 0px;
+	left: 0px;
+	z-index: 0;
+	width: 100%;
+	}  /*Dungeon:2008.555W 1129.261H
+	Scroll: 308.747W 239.371W*/
+	
+	#door1
+	{
+		position:absolute;
+		top: 37.958806688%;
+	left: 78.779719748%;
+	width: 18.28284513%;
+	z-index: 2;
+	
+	}
+
+	#door2
+	{
+		position:absolute;
+		top: 62.453321242%;
+	left: 8.197385682%;
+	width: 13.605651824%;
+	z-index: 2;
+	
+	}
+
+	#titleimg
+	{
+	position:absolute;
+	z-index: 100;
+	height: 100%;
+	left: 50%;
+	transform: translate(-50%);
+	}
+
+	#scroll1
+	{
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+	}
+
+	#scroll2
+	{
+	position: absolute;
+	bottom: 0;
+	z-index: 10;
+	width: 100%;
+	}
+
+	#bag
+	{
+	position: absolute;
+	top: 0;
+	z-index: 11;
+	width: 100%;
+	height: 100%
+    }
+
+    p
+    {
+    color: black;
+    font-family: "URW Chancery L", cursive;
+    font-size: 1em;
+    }
+	
+	#player
+	{
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position:absolute;
+	border: 5px solid #C3922E;
+	width: 60vw;
+	height: 33.7335348049vw;
+	resize: both;
+	}
+
+	#log
+	{
+	top: 55%;
+	left: .1%;
+	transform: translate(0, -50%);
+	position:absolute;
+	width: 15vw;
+	height: 33.7335348049vw;
+	resize: both;
+	}
+
+	#innerlog
+	{
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	position:absolute;
+	background-color: DDBF9A;
+	width: 77.529822152%;
+	height: 100%;
+	resize: both;
+	z-index: 9;
+	overflow: auto;
+	}
+
+
+	#inventory
+	{
+	top: 55%;
+	right: .1%;
+	transform: translate(0, -50%);
+	position:absolute;
+	border: 1px solid black;
+	width: 15vw;
+	height: 33.7335348049vw;
+	resize: both;
+	}
+
+	#title
+	{
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%);
+	position:absolute;
+	width: 60vw;
+	height: 15vh;
+	resize: both;
+	}
+	</style>
+</head>
+
+<body>
+  <div id="player">
+    <img src="images/dungeonroom2.png" id="dungeon">
+    <a href="room3.html">
+      <img src="images/dungeondoor2.png" id="door2" ismap>
+    </a>
+    <a href="room2b.html">
+      <img src="images/dungeondoor.png" id="door1" ismap>
+      </a>
+  </div>
+  <div id="log">
+    <img src="images/scrollend2.png" id="scroll1">
+    <div id="innerlog">
+      <p>You step foot in the first room of the dungeon. You see two possible ways to proceed with almost no signs of which way is the correct way to proceed. It looks like you might have to trust your instincts a bit and hope your choice doesn't get you killed.</p>
+      </div>
+    <img src="images/scrollend2.png" id="scroll2">
+  </div>
+   <div id="inventory">
+   <img src="images/burlaptexture.png" id="bag">
+   </div>
+    <div id="title">
+      <img src="images/dungeondetective.png" id="titleimg">
+</div>
+</body>
+</html>

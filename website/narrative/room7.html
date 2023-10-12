@@ -1,0 +1,183 @@
+
+<!Doctype>
+<html>
+<head>
+  <style>
+
+    body
+    {
+    background-color: 444444;
+    }
+	#dungeon
+	{
+		position:absolute;
+		top: 0px;
+	left: 0px;
+	z-index: 0;
+	width: 100%;
+	}  /*Dungeon:2008.555W 1129.261H
+    Scroll: 308.747W 239.371W*/
+
+    	#weapon1
+	{
+		position:absolute;
+		top: 17.00899969%;
+	left: 77.089599239%;
+	width: 4.022543569%;
+	z-index: 2;
+	
+	}
+	
+
+    	#weapon2
+	{
+		position:absolute;
+		top: 31.358206827%;
+	left: 73.497962465%;
+	width: 11.314900513%;
+	z-index: 2;
+	
+    }
+    
+    	#weapon3
+	{
+		position:absolute;
+		top: 54.157807628%;
+	left: 77.456679055%;
+	width: 3.950850238%;
+	z-index: 2;
+	
+	}
+
+	#titleimg
+	{
+	position:absolute;
+	z-index: 100;
+	height: 100%;
+	left: 50%;
+	transform: translate(-50%);
+	}
+
+	#scroll1
+	{
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+	}
+
+	#scroll2
+	{
+	position: absolute;
+	bottom: 0;
+	z-index: 10;
+	width: 100%;
+	}
+
+	#bag
+	{
+	position: absolute;
+	top: 0;
+	z-index: 11;
+	width: 100%;
+	height: 100%
+    }
+
+    p
+    {
+    color: black;
+    font-family: "URW Chancery L", cursive;
+    font-size: 1em;
+    }
+    
+	#player
+	{
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position:absolute;
+	border: 5px solid #C3922E;
+	width: 60vw;
+	height: 33.7335348049vw;
+	resize: both;
+	}
+
+	#log
+	{
+	top: 55%;
+	left: .1%;
+	transform: translate(0, -50%);
+	position:absolute;
+	width: 15vw;
+	height: 33.7335348049vw;
+	resize: both;
+	}
+
+	#innerlog
+	{
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	position:absolute;
+	background-color: DDBF9A;
+	width: 77.529822152%;
+	height: 100%;
+	resize: both;
+	z-index: 9;
+	overflow: auto;
+	}
+
+
+	#inventory
+	{
+	top: 55%;
+	right: .1%;
+	transform: translate(0, -50%);
+	position:absolute;
+	border: 1px solid black;
+	width: 15vw;
+	height: 33.7335348049vw;
+	resize: both;
+	}
+
+	#title
+	{
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%);
+	position:absolute;
+	width: 60vw;
+	height: 15vh;
+	resize: both;
+	}
+	</style>
+</head>
+
+<body>
+  <div id="player">
+    <img src="images/finaldungeon.png" id="dungeon">
+    <a href="epilogue4a.html">
+      <img src="images/hammer.png" id="weapon1" ismap>
+    </a>
+    <a href="epilogue3b.html">
+      <img src="images/mirror.png" id="weapon2" ismap>
+    </a>
+    <a href="epilogue4b.html">
+      <img src="images/tome.png" id="weapon3" ismap>
+      </a>
+  </div>
+  <div id="log">
+    <img src="images/scrollend2.png" id="scroll1">
+    <div id="innerlog">
+      <p>You notice a deep, dark passageway and for some reason think decide to go through it. As you reach the end of the passageway you reach what you're sure is the final room of the dungeon. You notice a gorgon in the lair and realize that you're in for the fight of your life now, but the only question now is how to fight it...</p>
+      </div>
+    <img src="images/scrollend2.png" id="scroll2">
+  </div>
+   <div id="inventory">
+   <img src="images/burlaptexture.png" id="bag">
+   </div>
+    <div id="title">
+      <img src="images/dungeondetective.png" id="titleimg">
+</div>
+</body>
+</html>

@@ -1,0 +1,165 @@
+
+<!Doctype>
+<html>
+<head>
+  <style>
+
+    body
+    {
+    background-color: 444444;
+    }
+	#dungeon
+	{
+		position:absolute;
+		top: 0px;
+	left: 0px;
+	z-index: 0;
+	width: 100%;
+	}  /*Dungeon:2008.555W 1129.261H
+	Scroll: 308.747W 239.371W*/
+	
+	#continue
+	{
+		position:absolute;
+		top: 84.666609402%;
+	left: 50%;
+	width: 21.209576038%;
+	z-index: 2;
+	transform: translate(-50%,0);
+    }
+
+	#titleimg
+	{
+	position:absolute;
+	z-index: 100;
+	height: 100%;
+	left: 50%;
+	transform: translate(-50%);
+	}
+
+	#scroll1
+	{
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+	}
+
+	#scroll2
+	{
+	position: absolute;
+	bottom: 0;
+	z-index: 10;
+	width: 100%;
+	}
+
+	#bag
+	{
+	position: absolute;
+	top: 0;
+	z-index: 11;
+	width: 100%;
+	height: 100%
+    }
+
+    p
+    {
+    color: black;
+    font-family: "URW Chancery L", cursive;
+    font-size: 1em;
+    }
+
+     h1
+    {
+    color: black;
+    font-family: "URW Chancery L", cursive;
+    font-size: 1.75em;
+    }
+	
+	#player
+	{
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position:absolute;
+	border: 5px solid #C3922E;
+	width: 60vw;
+	height: 33.7335348049vw;
+    resize: both;
+    background-color: #DDBF9A;
+    overflow: auto;
+	}
+
+	#log
+	{
+	top: 55%;
+	left: .1%;
+	transform: translate(0, -50%);
+	position:absolute;
+	width: 15vw;
+	height: 33.7335348049vw;
+	resize: both;
+	}
+
+	#innerlog
+	{
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	position:absolute;
+	background-color: DDBF9A;
+	width: 77.529822152%;
+	height: 100%;
+	resize: both;
+	z-index: 9;
+	overflow: auto;
+	}
+
+
+	#inventory
+	{
+	top: 55%;
+	right: .1%;
+	transform: translate(0, -50%);
+	position:absolute;
+	border: 1px solid black;
+	width: 15vw;
+	height: 33.7335348049vw;
+	resize: both;
+	}
+
+	#title
+	{
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%);
+	position:absolute;
+	width: 60vw;
+	height: 15vh;
+	resize: both;
+	}
+	</style>
+</head>
+
+<body>
+  <div id="player">
+    <center><h1>You notice that the gorgon is unarmed so you think that maybe you can take it on in a fight. You pick up a battle hammer and try to go in for the attack. However, being part snake, the gorgon was surprisingly good at slithering around and evading your attacks. As hard as you tried, it was only a matter of time before you locked eyes with the gorgon and turned to stone. Unfortuanate really.</h1></center>
+    <a href="ending4.html">
+      <img src="images/continuebutton.png" id="continue" ismap>
+      </a>
+  </div>
+  <div id="log">
+    <img src="images/scrollend2.png" id="scroll1">
+    <div id="innerlog">
+      <p>You notice a deep, dark passageway and for some reason think decide to go through it. As you reach the end of the passageway you reach what you're sure is the final room of the dungeon. You notice a gorgon in the lair and realize that you're in for the fight of your life now, but the only question now is how to fight it...</p>
+      </div>
+    <img src="images/scrollend2.png" id="scroll2">
+  </div>
+   <div id="inventory">
+   <img src="images/burlaptexture.png" id="bag">
+   </div>
+    <div id="title">
+      <img src="images/dungeondetective.png" id="titleimg">
+</div>
+</body>
+</html>

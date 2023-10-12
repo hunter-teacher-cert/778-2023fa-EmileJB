@@ -1,0 +1,165 @@
+
+<!Doctype>
+<html>
+<head>
+  <style>
+
+    body
+    {
+    background-color: 444444;
+    }
+	#dungeon
+	{
+		position:absolute;
+		top: 0px;
+	left: 0px;
+	z-index: 0;
+	width: 100%;
+	}  /*Dungeon:2008.555W 1129.261H
+	Scroll: 308.747W 239.371W*/
+	
+	#continue
+	{
+		position:absolute;
+		top: 84.666609402%;
+	left: 50%;
+	width: 21.209576038%;
+	z-index: 2;
+	transform: translate(-50%,0);
+	}
+
+	#titleimg
+	{
+	position:absolute;
+	z-index: 100;
+	height: 100%;
+	left: 50%;
+	transform: translate(-50%);
+	}
+
+	#scroll1
+	{
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+	}
+
+	#scroll2
+	{
+	position: absolute;
+	bottom: 0;
+	z-index: 10;
+	width: 100%;
+	}
+
+	#bag
+	{
+	position: absolute;
+	top: 0;
+	z-index: 11;
+	width: 100%;
+	height: 100%
+    }
+
+    p
+    {
+    color: black;
+    font-family: "URW Chancery L", cursive;
+    font-size: 1em;
+    }
+
+     h1
+    {
+    color: black;
+    font-family: "URW Chancery L", cursive;
+    font-size: 1.75em;
+    }
+	
+	#player
+	{
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position:absolute;
+	border: 5px solid #C3922E;
+	width: 60vw;
+	height: 33.7335348049vw;
+    resize: both;
+    background-color: #DDBF9A;
+    overflow: auto;
+	}
+
+	#log
+	{
+	top: 55%;
+	left: .1%;
+	transform: translate(0, -50%);
+	position:absolute;
+	width: 15vw;
+	height: 33.7335348049vw;
+	resize: both;
+	}
+
+	#innerlog
+	{
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	position:absolute;
+	background-color: DDBF9A;
+	width: 77.529822152%;
+	height: 100%;
+	resize: both;
+	z-index: 9;
+	overflow: auto;
+	}
+
+
+	#inventory
+	{
+	top: 55%;
+	right: .1%;
+	transform: translate(0, -50%);
+	position:absolute;
+	border: 1px solid black;
+	width: 15vw;
+	height: 33.7335348049vw;
+	resize: both;
+	}
+
+	#title
+	{
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%);
+	position:absolute;
+	width: 60vw;
+	height: 15vh;
+	resize: both;
+	}
+	</style>
+</head>
+
+<body>
+  <div id="player">
+    <center><h1>You look around the room and spot what appears to be a bunch of gold, treasure, and items. Naturally you take it and leave the dungeon. What's that about the case you were supposed to solve? Look, you only really took this job to get paid, but honestly the loot here is payment enough.</h1></center>
+    <a href="ending2.html">
+      <img src="images/continuebutton.png" id="continue" ismap>
+      </a>
+  </div>
+  <div id="log">
+    <img src="images/scrollend2.png" id="scroll1">
+    <div id="innerlog">
+      <p>You wait around for a bit to see if any of the statues will start moving, but none of them do. A bit of a risky move, but it seems that everything's okay so you decide to disregard the statues and look around instead.</p>
+      </div>
+    <img src="images/scrollend2.png" id="scroll2">
+  </div>
+   <div id="inventory">
+   <img src="images/burlaptexture.png" id="bag">
+   </div>
+    <div id="title">
+      <img src="images/dungeondetective.png" id="titleimg">
+</div>
+</body>
+</html>
